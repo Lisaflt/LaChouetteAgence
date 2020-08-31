@@ -234,6 +234,7 @@ a:hover {
 .row-no-gutters {
 	margin-right: 0;
 	margin-left: 0;
+	display: flex;
 }
 .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
@@ -605,6 +606,7 @@ p {
 .social {
 	max-width: 400px;
 	margin: auto auto auto auto;
+	justify-content: space-around;
 }
 h2 {
 	font-size: 22px;

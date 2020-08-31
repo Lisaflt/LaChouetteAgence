@@ -308,6 +308,12 @@ a:hover {
 .text {
 	font-size: 20px;
 }
+
+.col-sm-4 {
+	width: 100%;
+	text-align: center;
+	margin-top: 35px;
+}
 @media (min-width: 768px) {
 	.site-navigation {
 		position: absolute;
@@ -452,7 +458,7 @@ button {
 a[data-lightbox] {
 	position: relative;
 	display: block;
-	text-align: center;
+	text-align: -webkit-center;
 }
 a[data-lightbox]:hover::before {
 	content: "+";

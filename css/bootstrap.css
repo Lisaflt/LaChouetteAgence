@@ -1414,6 +1414,9 @@ textarea {
 a {
 	color: #337ab7;
 	text-decoration: none;
+}
+
+li a {
 	padding: 16px;
 }
 

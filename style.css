@@ -9,7 +9,6 @@ body {
 a,
 button {
 	transition: all 0.3s ease-in-out;
-	outline: none !important;
 }
 a:hover {
 	text-decoration: none;
@@ -399,9 +398,7 @@ nav .caret {
 	color: #fff;
 	background: rgba(0, 0, 0, 0.3);
 }
-button {
-	outline: none !important;
-}
+
 .btn-rd {
 	border-radius: 40px;
 }
@@ -663,8 +660,12 @@ h4 {
 .bgc-atomic-tangerine {
 	background-color: #f3976c;
 }
+
 .tc-white {
 	color: #fae2db !important;
+}
+.tc-white2 {
+	color: #38160a !important;
 }
 .btn-atomic-tangerine {
 	background: #f3976c;
